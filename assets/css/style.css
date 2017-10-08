@@ -3,7 +3,8 @@ body {
 	padding-bottom: 70px;
 }
 
-h2 {
+/* h2 style is only used for the titles in the main body of the pages */
+h2.title {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: xx-large;
 	font-weight:bold;
@@ -23,6 +24,10 @@ h2 {
 }
 */
 
+/********** NAV BAR for all pages ************/
+/* Used bootstrap code for Nav Bar but the Brand Name is 'a' tag
+	in the original code.  This changes it to just text */
+
 /* Custom Style for Brand Name in the Nav Bar */
 #brandStyle {
 	background-color: #4aaaa5; 
@@ -32,19 +37,16 @@ h2 {
 	font-size: x-large;
 }
 
+
 /* Profile picture adjust to left in About Me*/
 #profile {
 	float: left;
 	padding: 10px;
 }
 
-/* Size the icons in the "Connect with Me" Panel*/
-.panel-images {
-	height:45px;
-	width: 45px;
-	margin:10px;
-}
+/****** Connect With Me Panel for all pages ******/
 
+/* Text for the panel header */
 .connectWithMe {
 	text-align: center;
 	color:#4aaaa5;
@@ -53,9 +55,18 @@ h2 {
 	font-size: large;
 }
 
-/* Portfolio Images */
+/* Size the icons in the Panel Body */
+.panel-images {
+	height:45px;
+	width: 45px;
+	margin:10px;
+}
 
-/* Set size for Portfolio Images */
+/******* Portfolio Images *******/
+/* The following three classes are to get images and display
+	text on the images in the portfolio page */
+
+/* Set proper margin for Portfolio Images */
 .portfolio-left-image,
 .portfolio-right-image,
 .portfolio-text {
@@ -65,15 +76,13 @@ h2 {
 .portfolio-left-image {
 	height:200px;
 	width: 300px;
-/*	margin-left: 25px;
-*/	position:relative;
+	position:relative;
 }
 
 .portfolio-right-image {
 	height:200px;
 	width: 300px;
-/*	margin-right: 25px;
-*/	position: relative;
+	position: relative;
 }
 
 /* Text on Portfolio Images */
@@ -90,12 +99,14 @@ h2 {
 	top:130px;
 }
 
+/********** FOOTER for all pages ************/
 
-/* Set proper styling for the footer text and the box*/
+/* Set proper styling for the footer text and the box */
 .footer {
 	text-align: center;
 	color:black;
-	padding:20px;
+	font-weight: bold;
+	padding:10px;
 	font-size:10px;
 }
 
