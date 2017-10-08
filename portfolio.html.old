@@ -51,29 +51,27 @@
 					<hr style="margin:20px; background-color: lightgray; height: 2px;">
 				</div>
 				<div class="row">
-					<div class="col-md-6">
-						<img src="./assets/images/bollywood.jpg" alt="" class="portfolio-left-image">
-						<p class="portfolio-text">Dancer!</p>
+					<div class="col-md-6 ">
+						<div class="relative">
+						<img src="./assets/images/bollywood.jpg" alt="" class="portfolio-images">
+						<span class="portfolio-text">Dancer!</span>
+						</div>
 					</div>
 					<div class="col-md-6">
-						<img src="./assets/images/california.jpg" alt="" class="portfolio-right-image">
-						<p class="portfolio-text">My Home!</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<img src="./assets/images/python-logo.png" alt="" class="portfolio-left-image">
-						<p class="portfolio-text">Coder!</p>
-					</div>
-					<div class="col-md-6">
-						<img src="./assets/images/warriors.jpg" alt="" class="portfolio-right-image">
-						<p class="portfolio-text">Curry!</p>
+						<img src="./assets/images/california.jpg" alt="" class="portfolio-images">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="./assets/images/usc_mom.jpg" alt="" class="portfolio-left-image">
-						<p class="portfolio-text">My Son!</p>
+						<img src="./assets/images/python-logo.png" alt="" class="portfolio-images">
+					</div>
+					<div class="col-md-6">
+						<img src="./assets/images/warriors.jpg" alt="" class="portfolio-images">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="./assets/images/usc_mom.jpg" alt="" class="portfolio-images">
 					</div>
 				</div>	
 			</div>

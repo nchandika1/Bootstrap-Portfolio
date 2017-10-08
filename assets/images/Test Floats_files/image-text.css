@@ -1,0 +1,15 @@
+#image,
+#box {
+	width:200px;
+}
+
+#image {
+	height:300px;
+	float:left;
+	display:block;
+}
+
+#box {
+	background-color: teal
+	color: white;
+}
