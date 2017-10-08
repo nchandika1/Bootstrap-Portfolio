@@ -9,13 +9,17 @@ body {
 	color: #ffffff;
 	font-size:x-large;
 	background-color: #4aaaa5;
+/*	padding:20px;
+*/	text-align: center;
 }
 
-.box {
-	background-color: : #4aaaa5; 
-	width:100%;
-	height:20px
-	border:none;
+/* Style for Brand Name to match the portfolio */
+#brandStyle {
+	background-color: #4aaaa5; 
+	font-weight: bold; 
+	color:#ffffff;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	font-size: x-large;
 }
 
 /* Styling for About Me */
@@ -30,11 +34,20 @@ body {
 	float: left;
 	padding: 10px;
 }
+
 /* Size the icons in the "Connect with Me" Panel*/
 .panel-images {
-	height:40px;
-	width: 40px;
+	height:45px;
+	width: 45px;
 	margin:10px;
+}
+
+.connectWithMe {
+	text-align: center;
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: large;
 }
 
 /* Styling for Portfolio */
@@ -42,6 +55,14 @@ body {
 	height:200px;
 	width: 300px;
 	margin:25px;
+}
+
+#connectWithMe {
+	text-align: center;
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: large;
 }
 
 h2 {

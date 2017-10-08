@@ -3,6 +3,10 @@
 <head>
 	<title>Naga's Portfolio</title>
 
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<!--Link Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -23,10 +27,13 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
             	</button>
-        		<a class="navbar-brand brand" style="margin-left: 5px;">Nagarani Chandika</a>
+<!--         		<span class="navbar-brand" align=center style="background-color: #4aaaa5; font-weight: bold; color:#ffffff;font-family:'Georgia', Times, Times New Roman, serif;">Nagarani Chandika</span> -->
+ 				<span class="navbar-brand" align=center id="brandStyle">Nagarani Chandika</span>
       		</div>
-
 		    <div id="navbar" class="navbar-collapse collapse">
+		    	<!-- <ul class="nav navbar-nav navbar-left" align="center">
+		    		<span class="brand">Nagarani Chandika</span>
+		    	</ul> -->
 		    	<ul class="nav navbar-nav navbar-right">
           			<li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
           			<li><a href="./portfolio.html">Portfolio</a></li>
@@ -39,31 +46,27 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9">
-				<div class="row col-md-12">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title" id="aboutMe">About Me</h3>
-						</div>
-						<div class = "panel-body">
-							<img src="./assets/images/naga_profile.jpeg" id="profile">
-							<p style="padding:10px;">I am an aspiring web developer.  I am in the process of getting UC Berkeley certificaiton in full stack development.  I was in the tech industry as a developer and a manager for almost 17 years before I took a break for 5+ years to spend time with my family.  My experience in the past has been in networking and embedded systems programming esp. with emphasis on Layer 2 and Layer 3 protocols.  My curiosity for Web Development got strong when I started thinking about building my own web sites for few ideas that I have been floating in my mind.  I started off with a beginning Python class from Hackbright Academy.  Having finished that I wanted to get more deeper into full stack development and hence joined UC Berkeley Bootcamp course. </p> 
-							<p> Now a little bit about my educational background.  I have both Bachelors and Masters in Computer Science.  I graduated from Arizona State University in 1995 with Masters in Computer Science.  I worked for Apple and Cisco after that.</p>
-							<p>I live in Menlo Park, CA.  I have a beautiful family of three boys.  My husband and my two sons.  My favorite activity is traveling with my family.  I enjoy learning new cultures and seeing new places.  And I am a pretty good cook too.  Love vegetables and last but not least love red wine. <span class="glyphicon glyphicon-glass"></span></p>
-						</div>
+			<div class="col-md-8" style="background-color: white;">
+				<div class="row">
+					<h2>Portfolio</h2>
+				</div>
+				<div class="row">
+					<hr style="margin:20px; background-color: lightgray; height: 2px;">
+				</div>
+				<div class="row">
+					<div class = "panel-body">
+						<img src="./assets/images/naga_profile.jpeg" id="profile">
+						<p style="padding:10px;">I am an aspiring web developer.  I am in the process of getting UC Berkeley certificaiton in full stack development.  I was in the tech industry as a developer and a manager for almost 17 years before I took a break for 5+ years to spend time with my family.  My experience in the past has been in networking and embedded systems programming esp. with emphasis on Layer 2 and Layer 3 protocols.  My curiosity for Web Development got strong when I started thinking about building my own web sites for few ideas that I have been floating in my mind.  I started off with a beginning Python class from Hackbright Academy.  Having finished that I wanted to get more deeper into full stack development and hence joined UC Berkeley Bootcamp course. </p> 
+						<p> Now a little bit about my educational background.  I have both Bachelors and Masters in Computer Science.  I graduated from Arizona State University in 1995 with Masters in Computer Science.  I worked for Apple and Cisco after that.</p>
+						<p>I live in Menlo Park, CA.  I have a beautiful family of three boys.  My husband and my two sons.  My favorite activity is traveling with my family.  I enjoy learning new cultures and seeing new places.  And I am a pretty good cook too.  Love vegetables and last but not least love red wine. <span class="glyphicon glyphicon-glass"></span></p>
 					</div>
 				</div>
-				<div class="row col-md-12">
-				</div>
-				<div class="row col-md-12">
-
-				</div>
 			</div>
-			
+			<div class="col-md-1"></div>
 			<div class="col-md-3">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h3 class="panel-title" style="text-align: center">Connect With Me</h3>
+						<p class="panel-title connectWithMe" align=center>Connect With Me</p>
 					</div>
 					<div class = "panel-body" align="center">
 						<a href="https://www.facebook.com/nagarani" target="_blank"><img src="./assets/images/facebook.png" alt="FaceBook" class="panel-images"> </a>
