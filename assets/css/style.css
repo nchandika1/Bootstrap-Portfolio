@@ -18,12 +18,6 @@ body {
 	border:none;
 }
 
-/*************
-hr {
-	height: 30px;
-}
-***************/
-
 /* Styling for About Me */
 #aboutMe {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -41,6 +35,21 @@ hr {
 	height:40px;
 	width: 40px;
 	margin:10px;
+}
+
+/* Styling for Portfolio */
+#portfolio-images {
+	height:200px;
+	width: 300px;
+	margin:25px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: xx-large;
+	font-weight:bold;
+	color:#4aaaa5;
+	margin-left: 50px;
 }
 
 /* Set proper styling for the footer text and the box*/
